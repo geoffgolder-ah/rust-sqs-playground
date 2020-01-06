@@ -1,0 +1,13 @@
+[package]
+name = "sqsread"
+version = "0.1.0"
+authors = ["Geoff Golder <geoff.golder@earnin.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusoto_core = "0.42.0"
+rusoto_sqs = "0.42.0"
+rusoto_credential = "0.42.0"
+clokwerk = "0.3.0"
